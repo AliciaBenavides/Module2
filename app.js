@@ -11,6 +11,13 @@ document.getElementById("intro").innerHTML =
 console.log('Name:' + a)
 
 
+let d = 5; //mathematical equation
+let e = 2;
+let f = d + e;
+document.getElementById("intro").innerHTML = f;
+
+console.log(f);
+
 const moduleName = "Module 2"; // Global variable
 document.getElementById("intro").innerHTML = "This assignment is for " + moduleName;
 
