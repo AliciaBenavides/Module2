@@ -8,14 +8,16 @@ let a = 'Alicia Benavides' //string variable
 document.getElementById("intro").innerHTML =
 'Name:' + a;
 
-
+console.log('Name:' + a)
 
 
 const moduleName = "Module 2"; // Global variable
 document.getElementById("intro").innerHTML = "This assignment is for " + moduleName;
 
 
-
+{
+    let a = "class"
+}
 
 const y = 'block example' ; // Block variable 
 
